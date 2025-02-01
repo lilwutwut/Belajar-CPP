@@ -32,13 +32,8 @@ Keduanya sama sama bisa jalan tak perlu khawatir soal itu :3
 
 ok mari kita jelaskan fungsi masing masing kodenya
 
-```
-// Kita jelaskan kode yang umum saja
-
-#include <iostream> // mengambil Library standar C++ yang bernama iostream
-using namespace std; // menggunakan std sebagai default, jadi fungsinya biar ga ush nulis 'std::' lagi 
-
-int main() { // fungsi utama yang akan dijalankan C++ pertama kali
-    cout << "Hello World"; // menampilkan tulisan 'Hello World' ke console, bisa diartikan Console output
-}
-```
+- Agar sebuah kode seperti `cout` berfungsi kita perlu memasukan `#include <iostream>`  bisa disebut sebagai library standar C++
+  
+-  `using namespace std;` berfungsi untuk mengotomatiskan penulisan langsung ke perintah tanpa tanda `std::` lagi, Tetapi jika anda didunia kerja disarankan untuk tidak menggunakan `using namespace std;` karena dikahawatirkan tentang masalah dengan module lainnya
+  
+-  `int main` bisa disebut sebagai fungsi utama, ini lah yang akan dijalankan pertama kali saat program dijalankan
